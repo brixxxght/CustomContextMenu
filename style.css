@@ -1,0 +1,23 @@
+#context-menu {
+  position: absolute;
+  width: 100px;
+  box-shadow: 3px 3px 10px grey;
+}
+#context-menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#context-menu-item {
+  padding: 5px;
+  font-size: small;
+}
+.context-menu-item:hover {
+  background-color: rgb(190, 190, 190);
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
